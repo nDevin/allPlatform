@@ -32,8 +32,8 @@ if("${BUILD_PLATFORM}" STREQUAL "arm64")
 
     # 添加Qt配置
     set(QT_INCLUDE_DIRS 
-        ${CMAKE_CURRENT_SOURCE_DIR}/Amd64_bag/qt5.12.0-amd64/include/
-        ${CMAKE_CURRENT_SOURCE_DIR}/Amd64_bag/qt5.12.0-amd64/include/QtCore/
+        ${CMAKE_CURRENT_SOURCE_DIR}/Arm64_bag/qt5.12.0-arm64/include/
+        ${CMAKE_CURRENT_SOURCE_DIR}/Arm64_bag/qt5.12.0-arm64/include/QtCore/
     )
     set(QT_LIB_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Arm64_bag/qt5.12.0-arm64/lib)
     include_directories(${QT_INCLUDE_DIRS})
