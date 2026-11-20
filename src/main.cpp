@@ -13,11 +13,11 @@ int main()
     opencvDemo();
 
 
-    #ifdef ARM_64
+    #if defined(ARM_64)
         std::cout << "硬件平台：ARM_64" << std::endl;
-    #elif ARM_32
+    #elif defined(ARM_32)
         std::cout << "硬件平台：ARM_32" << std::endl;
-    #elif X86_64   
+    #elif defined(X86_64)
         std::cout << "硬件平台：X86_64" << std::endl;
     #endif 
 
