@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "ARM_64",
+            "includePath": [
+                "${workspaceFolder}/Arm64_bag/**",
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": ["ARM_64"],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm64"
+        },
+        {
+            "name": "ARM_32",
+            "includePath": [
+                "${workspaceFolder}/Arm32_bag/**",
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": ["ARM_32"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "X86_64",
+            "includePath": [
+                "${workspaceFolder}/Amd64_bag/**",
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": ["X86_64"],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
