@@ -6,7 +6,9 @@
                 "${workspaceFolder}/Arm64_bag/**",
                 "${workspaceFolder}/include/**"
             ],
-            "defines": ["ARM_64"],
+            "defines": [
+                "ARM_64"
+            ],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
@@ -18,10 +20,12 @@
                 "${workspaceFolder}/Arm32_bag/**",
                 "${workspaceFolder}/include/**"
             ],
-            "defines": ["ARM_32"],
+            "defines": [
+                "ARM_32"
+            ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
-            "intelliSenseMode": "linux-gcc-arm",
+            "intelliSenseMode": "linux-gcc-arm64",
             "cppStandard": "c++17"
         },
         {
@@ -30,7 +34,9 @@
                 "${workspaceFolder}/Amd64_bag/**",
                 "${workspaceFolder}/include/**"
             ],
-            "defines": ["X86_64"],
+            "defines": [
+                "X86_64"
+            ],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "intelliSenseMode": "linux-gcc-x64",
